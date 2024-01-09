@@ -1,0 +1,47 @@
+/* Style/Navigation.css */
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #646262;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 50px;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 30px;
+    border-radius: 10px; 
+    overflow: hidden;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: rgb(234, 227, 206);
+  }
+  
+  button{
+    margin-top: auto;
+  }

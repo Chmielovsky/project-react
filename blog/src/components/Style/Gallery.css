@@ -1,0 +1,44 @@
+/* Gallery.css */
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .photo-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid #333; /* Obramowanie */
+    border-radius: 5px; /* Zaokrąglenie krawędzi */
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 5px;
+    flex-direction: column;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+
+  }
+  
+
+  button{
+    margin-top: auto; /* Umieść przycisk na dole */
+    padding: 5px; /* Dodaj padding dla lepszego wyglądu */
+    background-color: #5c5858; /* Dodaj kolor tła */
+    color: white; /* Zmień kolor tekstu */
+    border: none;
+    border-radius:7px; /* Dodaj zaokrąglone krawędzie na dole przycisku */
+    cursor: pointer;
+  
+  }
