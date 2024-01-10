@@ -22,7 +22,7 @@
   
   nav li {
     margin-right: 30px;
-    border-radius: 10px; 
+
     overflow: hidden;
   }
   
@@ -42,6 +42,4 @@
     color: rgb(234, 227, 206);
   }
   
-  button{
-    margin-top: auto;
-  }
+ 
