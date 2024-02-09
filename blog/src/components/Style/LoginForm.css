@@ -1,0 +1,13 @@
+form {
+    width: 64vw;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 29px;
+    margin-top: 51px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 6px 0px #d7d7d7;
+}
+
+.btn-login {
+    margin-top: 10px;
+}
